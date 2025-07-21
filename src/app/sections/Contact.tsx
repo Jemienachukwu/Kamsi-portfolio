@@ -11,11 +11,11 @@ export default function Contact() {
     >
       <div className="max-w-5xl mx-auto">
         <h2 className="text-3xl font-semibold mb-6 text-center tracking-tight">
-          Let's Work Together
+          Lets Work Together
         </h2>
         <p className="text-center text-gray-600 mb-12 max-w-xl mx-auto">
-          Whether you're looking to grow your brand, improve your content, or
-          just want to say hi — I'm always open to new projects and
+          Whether you are looking to grow your brand, improve your content, or
+          just want to say hi — I am always open to new projects and
           collaborations.
         </p>
 
