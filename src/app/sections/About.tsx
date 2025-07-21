@@ -3,7 +3,7 @@ import Lottie from "lottie-react";
 import animation from "../../../public/Work from home.json";
 export default function About() {
   return (
-    <section className="w-full  py-20 px-6 md:px-20">
+    <section id="about" className="w-full  py-20 px-6 md:px-20">
       <div className="max-w-5xl mx-auto grid md:grid-cols-5 gap-12 items-center">
         {/* Accent Text/Heading */}
         <div className="md:col-span-2">
@@ -34,9 +34,11 @@ export default function About() {
             <li>🧠 Strategy-focused but execution-obsessed</li>
             <li>🤝 Big believer in collaboration, data, and empathy</li>
           </ul>
-          <button className="bg-black text-white h-[50px] w-[300px] rounded-lg mt-8  cursor-pointer">
-            Work with me
-          </button>
+          <a href="mailto:Ofoegbukamsi1@gmail.com">
+            <button className="bg-black text-white h-[50px] w-[300px] rounded-lg mt-8  cursor-pointer">
+              Work with me
+            </button>
+          </a>
         </div>
       </div>
     </section>

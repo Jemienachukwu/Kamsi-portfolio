@@ -24,7 +24,7 @@ export default function Testimonials() {
   ];
 
   return (
-    <section className="w-full py-24 bg-white">
+    <section id="testimonials" className="w-full py-24 bg-white">
       <div className="max-w-screen-lg mx-auto px-6 md:px-0">
         <h2 className="text-3xl font-semibold text-black mb-12 text-center">
           What People Are Saying

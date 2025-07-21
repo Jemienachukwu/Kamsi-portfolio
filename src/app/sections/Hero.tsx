@@ -3,11 +3,11 @@
 import Image from "next/image";
 import kaka from "../../../public/kaka.jpg";
 
-import { FaInstagram, FaLinkedin, FaTwitter, FaTiktok } from "react-icons/fa";
+import { FaInstagram, FaLinkedin, FaTiktok } from "react-icons/fa";
 
 export default function Hero() {
   return (
-    <section className="w-full py-24">
+    <section id="home" className="w-full py-24">
       <div className="max-w-screen-lg mx-auto px-6 md:px-0 flex flex-col md:flex-row items-center justify-between gap-12">
         {/* Left: Text Content */}
         <div className="flex-1 text-center md:text-left">
@@ -20,18 +20,25 @@ export default function Hero() {
           </p>
 
           {/* Social Media Icons */}
-          <div className="flex justify-center md:justify-start gap-5">
-            <a href="https://instagram.com/yourprofile" target="_blank">
-              <FaInstagram className="text-black hover:text-gray-600 text-2xl" />
+          <div className="flex justify-center md:justify-start gap-5 text-gray-700 text-xl">
+            <a
+              href="https://www.instagram.com/kamceeo?igsh=MW5rMTJ0YWw0eHdvMA%3D%3D&utm_source=qr"
+              target="_blank"
+            >
+              <FaInstagram className=" hover:text-gray-600 " />
             </a>
-            <a href="https://linkedin.com/in/yourprofile" target="_blank">
-              <FaLinkedin className="text-black hover:text-gray-600 text-2xl" />
+            <a
+              href="https://www.linkedin.com/in/kamsi-ofoegbu-00095b253?trk=contact-info"
+              target="_blank"
+            >
+              <FaLinkedin className=" hover:text-gray-600 " />
             </a>
-            <a href="https://twitter.com/yourprofile" target="_blank">
-              <FaTwitter className="text-black hover:text-gray-600 text-2xl" />
-            </a>
-            <a href="https://tiktok.com/@yourprofile" target="_blank">
-              <FaTiktok className="text-black hover:text-gray-600 text-2xl" />
+
+            <a
+              href="https://www.tiktok.com/@kamsisdigitalhub?_t=ZN-8yDfuwKEIVy&_r=1"
+              target="_blank"
+            >
+              <FaTiktok className=" hover:text-gray-600 " />
             </a>
           </div>
         </div>
