@@ -26,13 +26,12 @@ export default function Footer() {
 
         {/* Center: Copyright */}
         <div className="text-xs text-gray-500 text-center">
-          © {new Date().getFullYear()} YourName. All rights reserved.
+          © {new Date().getFullYear()} kamsi. All rights reserved.
         </div>
 
         {/* Right: Social Icons */}
         <div className="flex space-x-5 text-gray-700 text-lg">
           <a href="mailto:Ofoegbukamsi1@gmail.com">
-            className="hover:text-black transition" aria-label="Email"
             <FaEnvelope />
           </a>
           <a
