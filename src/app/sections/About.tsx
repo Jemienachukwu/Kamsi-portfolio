@@ -34,6 +34,9 @@ export default function About() {
             <li>🧠 Strategy-focused but execution-obsessed</li>
             <li>🤝 Big believer in collaboration, data, and empathy</li>
           </ul>
+          <button className="bg-black text-white h-[50px] w-[300px] rounded-lg mt-8  cursor-pointer">
+            Work with me
+          </button>
         </div>
       </div>
     </section>

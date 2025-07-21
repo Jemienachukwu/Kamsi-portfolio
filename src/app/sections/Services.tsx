@@ -15,7 +15,7 @@ export default function Services() {
         </h2>
         <p className="text-gray-600 text-lg mb-12 max-w-2xl mx-auto">
           I help brands grow with intentional, creative strategies tailored to
-          connect with real people — not just algorithms.
+          connect with real people not just algorithms.
         </p>
 
         {/* Services Grid */}
@@ -28,7 +28,7 @@ export default function Services() {
             </h3>
             <p className="text-gray-600 text-sm">
               Data-backed strategies that align with your goals, voice, and
-              audience — built for growth and engagement.
+              audience built for growth and engagement.
             </p>
           </div>
 
@@ -51,7 +51,7 @@ export default function Services() {
               Visual Design (Canva)
             </h3>
             <p className="text-gray-600 text-sm">
-              Clean, consistent designs for posts, stories, and reels — made in
+              Clean, consistent designs for posts, stories, and reels made in
               Canva for speed and impact.
             </p>
           </div>
