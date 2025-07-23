@@ -15,7 +15,7 @@ export default function Contact() {
         </h2>
         <p className="text-center text-gray-600 mb-12 max-w-xl mx-auto">
           Whether you are looking to grow your brand, improve your content, or
-          just want to say hi — I am always open to new projects and
+          just want to say hi I am always open to new projects and
           collaborations.
         </p>
 

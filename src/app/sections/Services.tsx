@@ -1,60 +1,115 @@
-// components/Services.tsx
-import {
-  PiStrategyBold,
-  PiPencilLineBold,
-  PiPaintBrushBold,
-} from "react-icons/pi";
+"use client";
+import { motion } from "framer-motion";
+import { FiEdit3 } from "react-icons/fi";
+import { MdOutlineCampaign, MdOutlineInsights } from "react-icons/md";
+import { HiOutlineLightBulb } from "react-icons/hi";
+import Link from "next/link";
 
 export default function Services() {
   return (
-    <section id="services" className="w-full py-20 px-6 md:px-20">
-      <div className="max-w-5xl mx-auto text-center">
-        {/* Heading */}
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
-          What I Offer
-        </h2>
-        <p className="text-gray-600 text-lg mb-12 max-w-2xl mx-auto">
-          I help brands grow with intentional, creative strategies tailored to
-          connect with real people not just algorithms.
-        </p>
+    <section
+      id="services"
+      className="py-20 px-4 sm:px-8 md:px-16 lg:px-32 bg-white text-black"
+    >
+      <div className="max-w-5xl mx-auto">
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.6 }}
+        >
+          <h2 className="text-3xl sm:text-4xl font-semibold mb-4">What I Do</h2>
+          <p className="text-lg text-gray-600 mb-12">
+            No guesswork. Just results-driven digital services tailored for your
+            brand.
+          </p>
+        </motion.div>
 
-        {/* Services Grid */}
-        <div className="grid md:grid-cols-3 gap-10 text-left">
-          {/* Strategy */}
-          <div className="bg-white rounded-xl shadow-sm p-6 hover:shadow-md transition">
-            <PiStrategyBold className="text-3xl text-[#000] mb-4" />
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">
-              Social Media Strategy
-            </h3>
-            <p className="text-gray-600 text-sm">
-              Data-backed strategies that align with your goals, voice, and
-              audience built for growth and engagement.
-            </p>
-          </div>
+        <div className="space-y-12">
+          {/* Social Media Management */}
+          <motion.div
+            className="grid md:grid-cols-6 gap-6 items-start"
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5, delay: 0.1 }}
+          >
+            <div className="md:col-span-1 text-3xl text-gray-700">
+              <HiOutlineLightBulb />
+            </div>
+            <div className="md:col-span-5">
+              <h3 className="text-xl font-semibold mb-2">
+                Social Media Management
+              </h3>
+              <p className="text-gray-700">
+                Strategy, scheduling, and performance tracking for platforms
+                like Instagram, TikTok, and LinkedIn. Grow your audience and
+                boost engagement with content that speaks your brand.
+              </p>
+              <p className="text-sm text-gray-500 mt-2 italic">
+                “Kamsi helped us double our reach in 3 months.”
+              </p>
+            </div>
+          </motion.div>
+
+          <hr className="border-t border-gray-200 my-6" />
 
           {/* Content Creation */}
-          <div className="bg-white rounded-xl shadow-sm p-6 hover:shadow-md transition">
-            <PiPencilLineBold className="text-3xl text-[#000] mb-4" />
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">
-              Content Creation
-            </h3>
-            <p className="text-gray-600 text-sm">
-              Copywriting, design, and short-form video that feels human,
-              on-brand, and scroll-worthy.
-            </p>
-          </div>
+          <motion.div
+            className="grid md:grid-cols-6 gap-6 items-start"
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5, delay: 0.2 }}
+          >
+            <div className="md:col-span-1 text-3xl text-gray-700">
+              <FiEdit3 />
+            </div>
+            <div className="md:col-span-5">
+              <h3 className="text-xl font-semibold mb-2">Content Creation</h3>
+              <p className="text-gray-700">
+                From reels to carousels, I create bold visual content that
+                reflects your voice and drives engagement. Storytelling that’s
+                sharp, stylish, and scroll-stopping.
+              </p>
+              <p className="text-sm text-gray-500 mt-2 italic">
+                “We finally have a content system that works.”
+              </p>
+            </div>
+          </motion.div>
 
-          {/* Visual Design with Canva */}
-          <div className="bg-white rounded-xl shadow-sm p-6 hover:shadow-md transition">
-            <PiPaintBrushBold className="text-3xl text-[#000] mb-4" />
-            <h3 className="text-xl font-semibold text-gray-800 mb-2">
-              Visual Design (Canva)
-            </h3>
-            <p className="text-gray-600 text-sm">
-              Clean, consistent designs for posts, stories, and reels made in
-              Canva for speed and impact.
-            </p>
-          </div>
+          <hr className="border-t border-gray-200 my-6" />
+
+          {/* Digital Marketing */}
+          <motion.div
+            className="grid md:grid-cols-6 gap-6 items-start"
+            initial={{ opacity: 0, x: -20 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.5, delay: 0.3 }}
+          >
+            <div className="md:col-span-1 text-3xl text-gray-700">
+              <MdOutlineCampaign />
+            </div>
+            <div className="md:col-span-5">
+              <h3 className="text-xl font-semibold mb-2">Digital Marketing</h3>
+              <p className="text-gray-700">
+                I run campaigns that convert combining paid media, analytics,
+                and creative strategy to grow your brand online.
+              </p>
+              <p className="text-sm text-gray-500 mt-2 italic">
+                “Sales improved by 35% thanks to her marketing direction.”
+              </p>
+            </div>
+          </motion.div>
+        </div>
+
+        <div className="mt-16 text-center">
+          <p className="text-lg text-gray-800 mb-4">
+            Looking for custom support or a full-service package?
+          </p>
+          <Link
+            href="#contact"
+            className="inline-block px-8 py-3 border border-black bg-black text-white transition rounded-xl"
+          >
+            Let’s Chat
+          </Link>
         </div>
       </div>
     </section>

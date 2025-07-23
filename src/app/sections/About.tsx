@@ -19,10 +19,10 @@ export default function About() {
         {/* Bio Content */}
         <div className="md:col-span-3 text-gray-700 text-lg leading-relaxed">
           <p className="mb-6">
-            I’m a Social Media Manager who helps brands translate their vision
-            into scroll-stopping content and engaging digital experiences. My
-            work blends visual storytelling with audience psychology — because
-            good marketing starts with understanding people.
+            I am a Creative Digital Specialist blending social media management,
+            content creation, and digital marketing to help brands grow with
+            clarity and confidence. From strategy to storytelling, I bring ideas
+            to life through visuals, words, and data-driven campaigns.
           </p>
           <ul className="space-y-3 list-disc list-inside">
             <li>
@@ -31,7 +31,9 @@ export default function About() {
             <li>
               🎯 Skilled in Instagram, TikTok, LinkedIn & cross-platform growth
             </li>
-            <li>🧠 Strategy-focused but execution-obsessed</li>
+            <li>
+              🧠 Strategic thinker, hands-on creator, results-focused marketer
+            </li>
             <li>🤝 Big believer in collaboration, data, and empathy</li>
           </ul>
           <a href="mailto:Ofoegbukamsi1@gmail.com">

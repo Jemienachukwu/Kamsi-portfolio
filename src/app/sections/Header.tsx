@@ -28,6 +28,9 @@ export default function Header() {
           <a href="#tools" className="hover:text-black transition">
             Tools
           </a>
+          <a href="#experience" className="hover:text-black transition">
+            Experience
+          </a>
           <a href="#testimonials" className="hover:text-black transition">
             Testimonials
           </a>
@@ -88,6 +91,9 @@ export default function Header() {
             </a>
             <a href="#tools" className="hover:text-black">
               Tools
+            </a>
+            <a href="#experience" className="hover:text-black">
+              Experience
             </a>
             <a href="#testimonials" className="hover:text-black">
               Testimonials

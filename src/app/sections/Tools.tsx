@@ -51,16 +51,17 @@ export default function Tools() {
     <section id="tools" className="w-full py-20 px-6 md:px-20">
       <div className="max-w-5xl mx-auto text-center">
         {/* Heading */}
-        <h2 className="text-3xl md:text-4xl font-bold text-gray-800 mb-4">
+        <h2 className="text-3xl text-left md:text-4xl font-bold text-gray-800 mb-4">
           Tools I Work With
         </h2>
-        <p className="text-gray-600 text-lg mb-12 max-w-2xl mx-auto">
-          I rely on a mix of creative, analytical, and collaborative tools to
-          keep everything running smoothly.
+        <p className="text-gray-600 text-left text-lg mb-12 max-w-2xl">
+          I utilize creative and collaborative tools to keep everything running
+          smoothly.
         </p>
 
         {/* Tools Grid */}
-        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 justify-items-center">
+        {/* <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-6 justify-start items-center"> */}
+        <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 gap-6 justify-start">
           {tools.map((tool) => (
             <div
               key={tool.name}

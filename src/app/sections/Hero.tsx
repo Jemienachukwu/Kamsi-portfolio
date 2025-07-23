@@ -12,11 +12,11 @@ export default function Hero() {
         {/* Left: Text Content */}
         <div className="flex-1 text-center md:text-left">
           <h1 className="text-5xl font-semibold text-black leading-tight mb-4">
-            Hey, I am Kamsi your next social media manager.
+            Hey, I am Kamsi your next Creative Digital Specialist
           </h1>
           <p className="text-lg text-gray-700 mb-8">
-            I help brands grow with strategic content, visuals, and authentic
-            engagement.
+            I help brands grow with strategic content, impactful design, and
+            effective social media management.
           </p>
 
           {/* Social Media Icons */}
